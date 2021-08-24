@@ -15,9 +15,9 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
+locale                   : "ko-KR"
 title                    : "DINGU NOTE"
-title_separator          : "-"
+title_separator          : "프론트엔드 개발 노트"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "DINGU"
 description              : "프론트엔드 관련 자료들을 올리고 있습니다."
@@ -102,14 +102,14 @@ analytics:
 # Site Author
 author:
   name             : "DINGU"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/sample.jpg"
   bio              : "Let's be experts."
   location         : "Seoul, South Korea"
   email            : "web.ljg@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:web.ljg@gmail.com"
+      url: "mailto:web.ljg@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -217,7 +217,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -284,6 +284,15 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      popular: false
+
+  # _pages
+    - scope:
+        path: "_pages"
+        type: pages
+      values:
+        layout: single
+        author_profile: true
