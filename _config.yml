@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "DINGU"
+  # name             : "DINGU"
   avatar           : "/assets/images/sample.jpg"
   bio              : "Let's be experts👍"
   # location         : "Seoul, South Korea"
