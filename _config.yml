@@ -131,7 +131,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/dingunote"
+      # url: "https://github.com/dingunote"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
