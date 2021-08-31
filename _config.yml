@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   # name             : "DINGU"
-  avatar           : "/assets/images/sample.jpg"
+  avatar           : "/assets/images/sample.png"
   bio              : "Let's be experts👍"
   # location         : "Seoul, South Korea"
   email            : # "web.ljg@gmail.com"
