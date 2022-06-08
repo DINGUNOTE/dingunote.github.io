@@ -170,9 +170,13 @@ td > code {
   padding:0.1rem;
   font-size:0.85rem;
   color:#fff;
-  background: #000;
+  background-color: #000;
   border-radius: $border-radius;
   vertical-align:top;
+  ::selection{
+    color:#000;
+    background-color:#fff;
+  }
   &:before,
   &:after {
     // letter-spacing: -0.2em;
