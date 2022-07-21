@@ -70,7 +70,6 @@ p {
 u,
 ins {
   text-decoration: none;
-  border-bottom: 1px solid $text-color;
   a {
     color: inherit;
   }
@@ -117,7 +116,7 @@ blockquote {
     // font-style: italic;
 
     &:before {
-      content: "\2014";
+      content: '\2014';
       padding-right: 5px;
     }
   }
@@ -167,16 +166,16 @@ a > code,
 li > code,
 figcaption > code,
 td > code {
-  padding:0.1rem;
+  padding: 0.1rem;
   font-family: $sans-serif;
-  color:#fff;
-  line-height:1.3rem;
+  color: #fff;
+  line-height: 1.3rem;
   background-color: #000;
   border-radius: $border-radius;
-  vertical-align:top;
-  ::selection{
-    color:#000;
-    background-color:#fff;
+  vertical-align: top;
+  ::selection {
+    color: #000;
+    background-color: #fff;
   }
 }
 
@@ -350,7 +349,7 @@ a,
 tr,
 td,
 form button,
-input[type="submit"],
+input[type='submit'],
 .btn,
 .highlight,
 .archive__item-teaser {
