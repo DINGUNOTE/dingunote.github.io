@@ -7,6 +7,8 @@
    ========================================================================== */
 
 .sidebar {
+  display: none;
+
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -266,7 +268,7 @@
 
   &:before {
     display: block;
-    content: "";
+    content: '';
     position: absolute;
     top: -11px;
     left: calc(50% - 10px);
@@ -283,7 +285,7 @@
 
   &:after {
     display: block;
-    content: "";
+    content: '';
     position: absolute;
     top: -10px;
     left: calc(50% - 10px);
@@ -349,4 +351,3 @@
     margin-right: initial;
   }
 }
-

@@ -16,10 +16,10 @@ minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: 'ko-KR'
-title: 'Zeke Lee'
+title: 'zekelee'
 title_separator: '&#124;'
 subtitle: # site tagline that appears below site title in masthead
-name: 'Zeke Lee'
+name: 'zekelee'
 description: '프론트엔드 관련 자료들을 올리고 있습니다.'
 url: 'https://zekelee.github.io'
 baseurl: # the subpath of your site, e.g. "/blog"
